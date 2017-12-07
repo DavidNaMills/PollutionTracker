@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "/src/app.js",
+  "engines":{
+    "node":"8.6.0"
+  },
   "scripts": {
     "test": "jest --watch",
     "serve": "live-server dist/",
@@ -10,8 +13,8 @@
     "build:dev": "npm run clean && webpack",
     "build:prod": "npm run clean && cross-env NODE_ENV=prod webpack",
     "dev-server": "webpack-dev-server --hot --inline",
-    "heroku-postbuild": "npm run build:prod",
-    "start": "node src/app.js"
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "",
   "license": "ISC",
