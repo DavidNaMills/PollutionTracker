@@ -1,0 +1,7 @@
+.contentContainer{
+    /* color:#fff; */
+    /* background-color: rgb(255, 1, 234); */
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+}

@@ -1,0 +1,13 @@
+.statsContainer{
+    flex:1;
+    justify-content: center;
+}
+
+
+.theStats{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex:1;
+}

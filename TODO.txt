@@ -1,0 +1,9 @@
+
+create the form:
+    select date range
+    choose what want to view
+
+connect to firebase
+create backend to write to firebase
+publish
+work on layout
