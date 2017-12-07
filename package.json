@@ -9,7 +9,8 @@
     "clean": "rimraf ./dist/*",
     "build:dev": "npm run clean && webpack",
     "build:prod": "npm run clean && cross-env NODE_ENV=prod webpack",
-    "dev-server": "webpack-dev-server --hot --inline"
+    "dev-server": "webpack-dev-server --hot --inline",
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "",
   "license": "ISC",
