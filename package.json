@@ -10,7 +10,8 @@
     "build:dev": "npm run clean && webpack",
     "build:prod": "npm run clean && cross-env NODE_ENV=prod webpack",
     "dev-server": "webpack-dev-server --hot --inline",
-    "heroku-postbuild": "npm run build:prod"
+    "heroku-postbuild": "npm run build:prod",
+    "start": "node src/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -36,6 +37,7 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
+    "express": "^4.16.2",
     "lodash": "^4.17.4",
     "moment": "^2.19.3",
     "react": "^16.1.1",
