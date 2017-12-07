@@ -11,7 +11,7 @@
     "serve": "live-server dist/",
     "clean": "rimraf ./dist/*",
     "build:dev": "npm run clean && webpack",
-    "build:prod": "npm run clean && cross-env NODE_ENV=prod webpack",
+    "build:prod": "npm run cross-env NODE_ENV=prod webpack",
     "dev-server": "webpack-dev-server --hot --inline",
     "start": "node server/server.js",
     "heroku-postbuild": "npm run build:prod"
